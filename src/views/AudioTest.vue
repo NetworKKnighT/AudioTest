@@ -48,13 +48,13 @@ const handleClickTestSound = async () => {
   console.log('Тест звука');
 
   const urls = [
-    'assets/media/klient.ogg',
-    'assets/media/а.ogg',
-    'assets/media/100v.ogg',
-    'assets/media/20v.ogg',
-    'assets/media/3.ogg',
-    'assets/media/priglashaetsya_k_oknu.ogg',
-    'assets/media/2.ogg'
+    'assets/klient.ogg',
+    'assets/а.ogg',
+    'assets/100v.ogg',
+    'assets/20v.ogg',
+    'assets/3.ogg',
+    'assets/priglashaetsya_k_oknu.ogg',
+    'assets/2.ogg'
   ];
 
   const audioPlayer = new AudioPlayer();
@@ -66,13 +66,13 @@ const handleClickTestSound2 = () => {
   console.log('Тест звука 2');
 
   const urls = [
-    'assets/media/klient.ogg',
-    'assets/media/а.ogg',
-    'assets/media/100v.ogg',
-    'assets/media/20v.ogg',
-    'assets/media/2.ogg',
-    'assets/media/priglashaetsya_k_oknu.ogg',
-    'assets/media/3.ogg'
+    'assets/klient.ogg',
+    'assets/а.ogg',
+    'assets/100v.ogg',
+    'assets/20v.ogg',
+    'assets/2.ogg',
+    'assets/priglashaetsya_k_oknu.ogg',
+    'assets/3.ogg'
   ];
 
   _playSoundsInSequence3(urls);
