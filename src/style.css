@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import "tailwindcss";
+@import "tailwindcss-primeui";
+@custom-variant dark (&:where(.p-dark, .p-dark *));
+
+:root {
+    --p-primary-50:#e6f7f0;
+  --p-primary-100:#ccf0e1;
+  --p-primary-200:#99e1c3;
+  --p-primary-300:#66d2a5;
+  --p-primary-400:#33c387;
+  --p-primary-500:#00bc78;
+  --p-primary-600:#009662;
+  --p-primary-700:#00704c;
+  --p-primary-800:#004a36;
+  --p-primary-900:#002420;
+  --p-primary-950:#001210;
+  --p-surface-0:#fff;
+  --p-surface-50:#fafafa;
+  --p-surface-100:#f4f4f5;
+  --p-surface-200:#e4e4e7;
+  --p-surface-300:#d4d4d8;
+  --p-surface-400:#a1a1aa;
+  --p-surface-500:#71717a;
+  --p-surface-600:#52525b;
+  --p-surface-700:#3f3f46;
+  --p-surface-800:#27272a;
+  --p-surface-900:#18181b;
+  --p-surface-950:#09090b;
+  --p-content-border-radius:6px;
+}
+
+:root {
+  --p-primary-color: var(--p-primary-500);
+  --p-primary-contrast-color: var(--p-surface-0);
+  --p-primary-hover-color: var(--p-primary-600);
+  --p-primary-active-color: var(--p-primary-700);
+  --p-content-border-color: var(--p-surface-200);
+  --p-content-hover-background: var(--p-surface-100);
+  --p-content-hover-color: var(--p-surface-800);
+  --p-highlight-background: var(--p-primary-50);
+  --p-highlight-color: var(--p-primary-700);
+  --p-highlight-focus-background: var(--p-primary-100);
+  --p-highlight-focus-color: var(--p-primary-800);
+  --p-text-color: var(--p-surface-700);
+  --p-text-hover-color: var(--p-surface-800);
+  --p-text-muted-color: var(--p-surface-500);
+  --p-text-hover-muted-color: var(--p-surface-600);
+}
+
+:root.p-dark {
+  --p-primary-color: var(--p-primary-400);
+  --p-primary-contrast-color: var(--p-surface-900);
+  --p-primary-hover-color: var(--p-primary-300);
+  --p-primary-active-color: var(--p-primary-200);
+  --p-content-border-color: var(--p-surface-700);
+  --p-content-hover-background: var(--p-surface-800);
+  --p-content-hover-color: var(--p-surface-0);
+  --p-highlight-background: color-mix(in srgb, var(--p-primary-400), transparent 84%);
+  --p-highlight-color: rgba(255, 255, 255, 0.87);
+  --p-highlight-focus-background: color-mix(in srgb, var(--p-primary-400), transparent 76%);
+  --p-highlight-focus-color: rgba(255, 255, 255, 0.87);
+  --p-text-color: var(--p-surface-0);
+  --p-text-hover-color: var(--p-surface-0);
+  --p-text-muted-color: var(--p-surface-400);
+  --p-text-hover-muted-color: var(--p-surface-300);
+}
+
+.p-dark {
+  color-scheme: dark;
+}
+
+body {
+  font-family: 'Mulish', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+}
